@@ -2,7 +2,7 @@ package ex1.example;
 
 import java.util.Scanner;
 
-public class Max3_Answer {
+public class Max3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

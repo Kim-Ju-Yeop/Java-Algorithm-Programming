@@ -1,6 +1,6 @@
 package ch2.example;
 
-public class SumForIn {
+public class ArraySumForIn {
     public static void main(String[] args) {
         double[] a = {1.0, 2.0, 3.0, 4.0, 5.0};
 

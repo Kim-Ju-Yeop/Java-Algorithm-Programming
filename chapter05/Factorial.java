@@ -2,7 +2,7 @@ package ch5.example.ex1;
 
 import java.util.Scanner;
 
-public class Factorial_Answer {
+public class Factorial {
 
     public static int factorial(int input){
         if(input > 0) return input * factorial(input - 1);

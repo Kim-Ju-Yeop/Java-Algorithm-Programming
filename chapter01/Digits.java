@@ -2,7 +2,7 @@ package ch1.ex2.example;
 
 import java.util.Scanner;
 
-public class Digits_Answer {
+public class Digits {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int input;

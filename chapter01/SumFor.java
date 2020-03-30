@@ -1,20 +1,19 @@
-package ch1.ex2.question;
+package ch1.ex2.example;
 
 import java.util.Scanner;
 
-public class SumOfGouse {
+public class SumFor {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("1부터 n 까지의 값을 모두 더합니다.");
+        System.out.println("1부터 n 까지의 합을 구합니다.");
         System.out.print("n의 값을 입력해주세요 : "); int input = scanner.nextInt();
 
-        int sum = makeSum(input);
-        System.out.println("1부터 " + input + "까지의 값의 합은 : " + sum + "입니다.");
-    }
+        int sum = 0;
 
-    public static int makeSum(int input){
-        int sum = ((1 + input) * input) / 2;
-        return sum;
+        for(int i = 1; i <= input; i++){
+            sum += i;
+        }
+        System.out.println("1부터 " + input + "까지의 값의 합은 : " + sum + "입니다.");
     }
 }

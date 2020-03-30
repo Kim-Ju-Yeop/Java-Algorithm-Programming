@@ -2,7 +2,7 @@ package ch1.ex2.example;
 
 import java.util.Scanner;
 
-public class SumWhile_Answer {
+public class SumWhile {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -2,7 +2,7 @@ package ex1.example;
 
 import java.util.Scanner;
 
-public class Median_Answer {
+public class Median {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

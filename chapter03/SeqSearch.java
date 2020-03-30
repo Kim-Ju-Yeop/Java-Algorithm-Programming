@@ -2,7 +2,7 @@ package ch3.example;
 
 import java.util.Scanner;
 
-public class SeqSearch_Answer {
+public class SeqSearch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
